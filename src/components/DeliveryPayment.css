@@ -1,0 +1,75 @@
+.card {
+  background-color: #ffffff;
+  display: flex;
+  text-align: left;
+  padding: 20px;
+}
+
+.heading {
+  color: #183b56;
+  font-weight: 500;
+  font-size: 28px;
+  margin-left: 60px;
+}
+
+.text {
+  margin-left: 60px;
+}
+
+.button {
+  color: white;
+  background-color: #d0b200;
+  border: none;
+  border-radius: 8px;
+  margin-left: 60px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.image {
+  height: 50vh;
+}
+
+.payment-image {
+  height: 10vh;
+  width: 8vw;
+  padding-left: 50px;
+  gap: 20px;
+}
+
+.desktopImage {
+  display: block;
+}
+
+.mobileImage {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  .card {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .desktopImage {
+    display: none;
+  }
+
+  .mobileImage {
+    display: block;
+    width: 80%;
+    height: 80vh;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .heading,
+  .text,
+  .button {
+    margin-left: 0;
+    text-align: left;
+  }
+
+}

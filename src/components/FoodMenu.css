@@ -1,0 +1,11 @@
+.viewAll {
+  color: #d0b200;
+  text-decoration: underline;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.viewAll:hover {
+  color: #a68c00;
+  cursor: pointer;
+}
